@@ -1,0 +1,100 @@
+*{
+    margin:0
+    padding:0
+    box-sizing:border-box;
+}   
+
+
+header .Redessociales{
+display: flex;
+justify-content: right;
+
+
+}
+
+header .Redessociales a {
+    padding: 5px;
+    font-size: 30px;
+    color: black;
+}
+
+.Redessociales a:hover{
+color: aqua;
+}
+
+header .Pipistrello{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+    background-color: rgb(172, 210, 197); 
+    color: black;
+    font-size: 60px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+ 
+}
+
+
+
+header nav ul{
+    list-style: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   padding: 20px;
+margin:50px;
+}
+header .barra{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:inherit;
+    background-color: rgb(144, 218, 193);
+  
+    
+} 
+
+header .Bannerlibreria{
+display: flex;
+justify-content: center;
+align-items: center;
+}  
+
+main .Bienvenidos{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main .Novedades{
+display:flex;
+}
+
+main .whatsapp{
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+}
+
+main h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main p{
+font-family:Arial, Helvetica, sans-serif;
+}
+main .boton-vertodo{
+    text-decoration: none;
+    text-align: center;
+    background-color: aquamarine;
+padding: 5px;
+display: inline-block;
+}
+
+footer .footer{
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+}
