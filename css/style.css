@@ -1,16 +1,11 @@
 *{
-    margin:0
-    padding:0
+    margin:0;
+    padding:0;
     box-sizing:border-box;
 }   
 
 
-header .Redessociales{
-display: flex;
-justify-content: right;
 
-
-}
 
 header .Redessociales a {
     padding: 5px;
@@ -22,7 +17,13 @@ header .Redessociales a {
 color: aqua;
 }
 
-header .Pipistrello{
+
+.Pipistrello{
+display: flex;
+flex-direction: row;
+}
+
+header .Pipistrello .titulo-banner{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -34,35 +35,46 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
+.Redessociales{
+    display: flex;
+    justify-content: right;
+    }
+
+.Pipistrello img {
+width: 20%;
+}
 header nav ul li a{
     text-decoration: none;
  
 }
 
-
-
-header nav ul{
-    list-style: none;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-   padding: 20px;
-margin:50px;
-}
-header .barra{
+.navbar {
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
     font-style:inherit;
-    background-color: rgb(144, 218, 193);
-  
-    
+    background-color:  rgb(143, 207, 185) !important;
 } 
 
-header .Bannerlibreria{
-display: flex;
-justify-content: center;
-align-items: center;
+header .navbar-brand{
+    width: 100px;
+    height: 100px;
+} 
+
+.Bannerlibreria img{
+    width: 100%;
+    height: 100%;
+
+}
+
+header .Bannerlibreria div{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }  
+
+
 
 main .Bienvenidos{
     text-align: center;
@@ -73,11 +85,84 @@ main .Novedades{
 display:flex;
 }
 
+.caja-libros{
+    width: 18%;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.libro-uno{
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+padding: 10%;
+
+}
+
+.libro-dos{
+    margin: 40px;
+    border: solid 2px;
+    padding: 10%;
+}
+
+.libro-tres{
+    margin: 40px;
+    border: solid 2px;
+    padding: 10%;
+}
+
+.libro-cuatro{
+    border: solid 2px;
+    margin: 40px;
+    padding: 10%;
+}
+
+
+.botones-card{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+}   
+.h5-boton:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.h5-boton{
+    background-color: blueviolet;
+    padding: 5%;
+
+}
+
+.boton-carro{
+    background-color: blueviolet;
+    padding: 5%;
+    border-radius: 15px;
+}
+.boton-carro:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.boton-vertodo{
+  
+    border-radius: 15px;
+    padding: 20%;
+}
+
+.boton-vertodo div{
+    display: flex;
+    justify-content: center;
+}
 main .whatsapp{
     position: fixed;
     bottom: 100px;
     right: 50px;
 }
+
+
+
 
 main h4{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -97,4 +182,23 @@ display: inline-block;
 footer .footer{
     display: block;
     font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.footer-grid{
+display: grid;
+grid-template-columns: 1 fr 1fr 1fr;
+grid-auto-rows: 40px;
+}
+
+.primer-item{
+    grid-column: 1/2;
+}
+
+.segundo-item{
+    grid-column: 2/3;
+}
+
+.tercer-item{
+    grid-column: 3/4;
 }

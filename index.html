@@ -12,77 +12,133 @@
     <header>
         
         <section>
-            <div class="Redessociales">
-                <a href="https://www.instagram.com/metonimialibros/"target="-blank"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.facebook.com/cespedeslibros"target="-blank"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.youtube.com/@Porqueleerok"target="-blank"><i class="bi bi-youtube"></i></a> 
-            </div>
 
             <div class="Pipistrello">
-                <h1>Pipistrello Libros</h1>       
-                <img src="./img/logo.png" alt="logo"> 
+                <div class="titulo-banner">
+                    <h1>Pipistrello Libros</h1>       
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+                
+                <div class="Redessociales">
+                    <a href="https://www.instagram.com/metonimialibros/"target="-blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.facebook.com/cespedeslibros"target="-blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.youtube.com/@Porqueleerok"target="-blank"><i class="bi bi-youtube"></i></a> 
+                </div>
+
              </div>
         </section>
         
 <section class="Bannerlibreria">
-    <img src="./img/imagenheader.jpg"bannerlibreria"> 
+    <div>
+        <img src="./img/imagenheader.jpg" alt="Bannerlibreria"> 
+    </div>
+
 </section>
-       <div class="barra">
-        <nav>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/Catálogo.html">Catálogo</a></li>
-                <li><a href="./pages/Quiénes somos.html">Quiénes somos</a></li>
-                <li><a href="./pages/Nuestros recomendados.html">Nuestros recomendados</a></li>
-                <li><a href="./pages/Contacto.html">Contacto</a></li>
+
+
+       <div id="navbar">
+
+        <nav class="navbar navbar-expand-lg menu">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Quiénes somos.html">Quiénes somos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Catálogo
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Ficción</a></li>
+                      <li><a class="dropdown-item" href="#">No Ficción</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Ver todo</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Nuestros recomendados.html">Nuestros recomendados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Contacto.html">Contacto</a>
+                  </li>
+                 
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscá tu libro" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+
                 <li><a href=""><img src="./img/cart.png" alt="carrito" width="15px" height="15px"></a></li>
-                <li><form action="">
-                    <label for="">Buscá tu libro</label>
-                   <input type="text">
-                </form></li>
-            </ul>
-        </nav>
+
+              </div>
+            </div>
+          </nav>
+
        </div>
+    
        
     </header>
     <main>
-   
-
+       
         <h2 class="Bienvenidos">¡Bienvenidos, lectores!</h2>
 
-        <section class="Novedades">
-        <h3>Novedades</h3>
-        <div>
-            <img src="./img/librouno.jpg" alt="portada-nos-sale-bien" width="200px" height="300px">
-            <h4>Los elementales</h4>
-            <h4>$7200</h4>
-            <h5>Detalles</h5>
-           <a href=""><img src="./img/cart.png" alt="carrito" width="15px" height="15px"></a>
+        <section class="Libros">
+        <h3 class="Novedades">Novedades</h3>
+        <div class="caja-libros">
+            <div class="libro-uno">
+                <img src="./img/librouno.jpg" alt="portada-nos-sale-bien" width="200px"; height="300px";>
+                <h4>Nos sale bien pedir perdón</h4>
+                <h4>$7200</h4>
+                    <div class="botones-card">
+                        <h5 class="h5-boton">Detalles</h5>
+                        <a class="boton-carro"><i class="bi bi-cart4"></i></a>
+                    </div>
+               
+                
+                
+            </div>
+    
+            <div class="libro-dos">
+                <img src="./img/librodos.jpeg" alt="portada-nervio-optico" width="200px"; height="300px";>
+                <h4>Nervio Óptico</h4>
+                <h4>$9000</h4>
+                <div class="botones-card">
+                    <h5 class="h5-boton">Detalles</h5>
+                    <a class="boton-carro"><i class="bi bi-cart4"></i></a>
+                </div>
+                
+            </div>
+    
+            <div class="libro-tres">
+                <img src="./img/librotres.jpeg" alt="portada-el-adversario" width="200px"; height="300px";>
+                <h4>El adversario</h4>
+                <h4>$7200</h4>
+                <div class="botones-card">
+                    <h5 class="h5-boton">Detalles</h5>
+                    <a class="boton-carro"><i class="bi bi-cart4"></i></a>
+                </div>
+               
+            </div>
+    
+            <div class="libro-cuatro">
+                <img src="./img/librocuatro.jpg" alt="portada-las-indignas" width="200px"; height="300px";>
+                <h4>Las indignas</h4>
+                <h4>$10000</h4>
+                <div class="botones-card">
+                    <h5 class="h5-boton">Detalles</h5>
+                        <a class="boton-carro"><i class="bi bi-cart4"></i></a>
+                </div>
+               
+            </div>
         </div>
-
-        <div>
-            <img src="./img/librodos.jpeg" alt="portada-nervio-optico" width="200px" height="300px>
-            <h4>Nervio Óptico</h4>
-            <h4>$9000</h4>
-            <h5>Detalles</h5>
-           <a href=""><img src="./img/cart.png" alt="carrito" width="15px" height="15px"></a>
-        </div>
-
-        <div>
-            <img src="./img/librotres.jpeg" alt="portada-el-adversario" width="200px" height="300px>
-            <h4>El adversario</h4>
-            <h4>$7200</h4>
-            <h5>Detalles</h5>
-           <a href=""><img src="./img/cart.png" alt="carrito" width="15px" height="15px"></a>
-        </div>
-
-        <div>
-            <img src="./img/librocuatro.jpg" alt="portada-las-indignas" width="200px" height="300px>
-            <h4>Las indignas</h4>
-            <h4>$10000</h4>
-            <h5>Detalles</h5>
-           <a href=""><img src="./img/cart.png" alt="carrito" width="15px" height="15px"></a>
-        </div>
+       
     </section>
     <section class="boton-vertodo">
         <div><a href="./pages/Catálogo.html">Ver todo</a></div>
@@ -94,40 +150,50 @@
 
             </div>
         </section>
+
     </main>
     <footer>
-       <h4 class="footer">Teléfono</h4>
-       <h4 class="footer">Mail</h4>
-       <h4 class="footer">Dirección</h4>
-       <h4 class="footer">Horarios</h4>
+        <div class="footer-grid">
+<div class="primer-item">
 
-       <div>
-        <h4>Medios de pago</h4>
-        <img src="./img/visa.png" alt="visa">
-        <img src="./img/american.png" alt="american">
-       </div>
-       
-       <section>
-        <h4>Suscribite al newsletter</h4>
-        <form action="">
-<div>
-    <label for="Nombre">Nombre</label>
-    <input type="text" name="" id="Nombre">
+    <h4 <i class="bi bi-telephone"></i> Teléfono: 4541-7603</h4>
+    <h4 <i class="bi bi-envelope-at"></i> Mail: pipistrello-libros@gmail.com</h4>
+    <h4 <i class="bi bi-geo-alt"></i> Dirección: Caracas 480, CABA</h4>
+    <h4 <i class="bi bi-clock"></i> Horarios: lunes a sábados 10 a 19 h </h4>
+
 </div>
-
-<div>
-    <label for="Mail">Mail</label>
-    <input type="email" name="" id="Mail">
-</div>
-
-<div class="Enviar">
-    <input type="submit" name="" id="Enviar">
-</div>
-
-
-        </form>
-
-       </section>
+           
+    
+            <div class="segundo-item">
+             <h4>Medios de pago</h4>
+             <img src="./img/visa.png" alt="visa">
+             <img src="./img/american.png" alt="american">
+            </div>
+            
+            <div class="tercer-item">
+                <h4>Suscribite al newsletter <i class="bi bi-envelope-paper-heart"></i></h4>
+                <form action="">
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="" id="Nombre">
+        </div>
+        
+        <div>
+            <label for="Mail">Mail:</label>
+            <input type="email" name="" id="Mail">
+        </div>
+        
+        <div class="Enviar">
+            <input type="submit" name="" id="Enviar">
+        </div>
+        
+        
+                </form>
+            </div>
+             
+     
+              </div>
+      
  
         
        
